@@ -1,13 +1,3 @@
-/**
-* Template Name: Resi - v4.3.0
-* Template URL: https://bootstrapmade.com/resi-free-bootstrap-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -37,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5a5af3;
+  background: #0000ff;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -127,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 15px;
-  color: #434175;
+  color: #0092ff;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -221,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #434175;
+  color: #0092ff;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -276,7 +266,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #434175;
+  color: #0092ff;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
@@ -338,7 +328,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 400;
   line-height: 56px;
-  color: #434175;
+  color: #0092ff;
   font-family: "Poppins", sans-serif;
 }
 
@@ -472,7 +462,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #434175;
+  color: #0092ff;
 }
 
 .section-title h2::after {
@@ -498,7 +488,7 @@ section {
   font-size: 44px;
   line-height: 50px;
   margin-bottom: 20px;
-  color: #434175;
+  color: #0092ff;
 }
 
 .about .content h3 {
@@ -554,7 +544,7 @@ section {
   font-weight: 600;
   padding: 0;
   margin: 20px 0;
-  color: #434175;
+  color: #0092ff;
 }
 
 .why-us .box p {
@@ -622,7 +612,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #434175;
+  color: #0092ff;
   transition: ease-in-out 0.3s;
 }
 
@@ -687,224 +677,121 @@ section {
 
 
 /*--------------------------------------------------------------
-# Portfolio
+# daftar
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
-  margin-bottom: 30px;
-}
-
-.portfolio #portfolio-flters {
-  padding: 0;
-  margin: 0 auto 15px auto;
-  list-style: none;
-  text-align: center;
-  border-radius: 50px;
-  padding: 2px 15px;
-}
-
-.portfolio #portfolio-flters li {
-  cursor: pointer;
-  display: inline-block;
-  padding: 10px 15px;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 1;
-  text-transform: uppercase;
-  color: #444444;
-  margin-bottom: 10px;
-  transition: all 0.3s ease-in-out;
-}
-
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #5a5af3;
-}
-
-.portfolio #portfolio-flters li:last-child {
-  margin-right: 0;
-}
-
-.portfolio .portfolio-wrap {
-  transition: 0.3s;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-}
-
-.portfolio .portfolio-wrap::before {
-  content: "";
-  background: rgba(255, 255, 255, 0.7);
-  position: absolute;
-  left: 30px;
-  right: 30px;
-  top: 30px;
-  bottom: 30px;
-  transition: all ease-in-out 0.3s;
-  z-index: 2;
-  opacity: 0;
-}
-
-.portfolio .portfolio-wrap .portfolio-info {
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  z-index: 3;
-  transition: all ease-in-out 0.3s;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.portfolio .portfolio-wrap .portfolio-info::before {
-  display: block;
-  content: "";
-  width: 48px;
-  height: 48px;
-  position: absolute;
-  top: 35px;
-  left: 35px;
-  border-top: 3px solid #fff;
-  border-left: 3px solid #fff;
-  transition: all 0.5s ease 0s;
-  z-index: 9994;
-}
-
-.portfolio .portfolio-wrap .portfolio-info::after {
-  display: block;
-  content: "";
-  width: 48px;
-  height: 48px;
-  position: absolute;
-  bottom: 35px;
-  right: 35px;
-  border-bottom: 3px solid #fff;
-  border-right: 3px solid #fff;
-  transition: all 0.5s ease 0s;
-  z-index: 9994;
-}
-
-.portfolio .portfolio-wrap .portfolio-info h4 {
-  font-size: 20px;
-  color: #434175;
-  font-weight: 600;
-}
-
-.portfolio .portfolio-wrap .portfolio-info p {
-  color: #434175;
-  font-size: 14px;
-  text-transform: uppercase;
-  padding: 0;
-  margin: 0;
-}
-
-.portfolio .portfolio-wrap .portfolio-links {
-  text-align: center;
-  z-index: 4;
-}
-
-.portfolio .portfolio-wrap .portfolio-links a {
-  color: #5a5af3;
-  margin: 0 2px;
-  font-size: 28px;
-  display: inline-block;
-  transition: 0.3s;
-}
-
-.portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #1313ee;
-}
-
-.portfolio .portfolio-wrap:hover::before {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 1;
-}
-
-.portfolio .portfolio-wrap:hover .portfolio-info {
-  opacity: 1;
-}
-
-.portfolio .portfolio-wrap:hover .portfolio-info::before {
-  top: 15px;
-  left: 15px;
-}
-
-.portfolio .portfolio-wrap:hover .portfolio-info::after {
-  bottom: 15px;
-  right: 15px;
-}
-
-/*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
-.portfolio-details {
+.daftar .row {
   padding-top: 40px;
 }
 
-.portfolio-details .portfolio-details-slider img {
-  width: 100%;
+.daftar .box {
+  padding: 40px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+  background: #fff;
+  text-align: center;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
+.daftar h3 {
+  font-weight: 300;
+  margin-bottom: 15px;
+  font-size: 28px;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid #5a5af3;
+.daftar h4 {
+  font-size: 46px;
+  color: #5a5af3;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 25px;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #5a5af3;
+.daftar h4 span {
+  color: #bababa;
+  font-size: 18px;
+  display: block;
 }
 
-.portfolio-details .portfolio-info {
-  padding: 30px;
-  box-shadow: 0px 0 30px rgba(67, 65, 117, 0.08);
-}
-
-.portfolio-details .portfolio-info h3 {
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #eee;
-}
-
-.portfolio-details .portfolio-info ul {
+.daftar ul {
+  padding: 0;
   list-style: none;
-  padding: 0;
-  font-size: 15px;
+  color: #999;
+  text-align: left;
+  line-height: 20px;
 }
 
-.portfolio-details .portfolio-info ul li + li {
-  margin-top: 10px;
+.daftar ul li {
+  padding-bottom: 12px;
 }
 
-.portfolio-details .portfolio-description {
-  padding-top: 30px;
+.daftar ul i {
+  color: #5a5af3;
+  font-size: 18px;
+  padding-right: 4px;
 }
 
-.portfolio-details .portfolio-description h2 {
-  font-size: 26px;
-  font-weight: 700;
-  margin-bottom: 20px;
+.daftar ul .na {
+  color: #ccc;
 }
 
-.portfolio-details .portfolio-description p {
-  padding: 0;
+.daftar ul .na i {
+  color: #ccc;
 }
 
+.daftar ul .na span {
+  text-decoration: line-through;
+}
+
+.daftar .btn-buy {
+  background: #0092ff;
+  display: inline-block;
+  padding: 10px 35px;
+  border-radius: 50px;
+  color: #fff;
+  transition: none;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  transition: 0.3s;
+  border: none;
+}
+
+.daftar .btn-buy:hover {
+  background: #5a5af3;
+}
+
+.daftar .featured {
+  z-index: 10;
+  margin: -30px -5px 0 -5px;
+}
+
+.daftar .featured .btn-buy {
+  background: #5a5af3;
+}
+
+.daftar .featured .btn-buy:hover {
+  background: #7272f5;
+}
+
+@media (max-width: 992px) {
+  .daftar .box {
+    max-width: 60%;
+    margin: 0 auto 30px auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .daftar .box {
+    max-width: 80%;
+    margin: 0 auto 30px auto;
+  }
+}
+
+@media (max-width: 420px) {
+  .daftar .box {
+    max-width: 100%;
+    margin: 0 auto 30px auto;
+  }
+}
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
@@ -936,7 +823,7 @@ section {
 
 .team .member .social a {
   transition: color 0.3s;
-  color: #434175;
+  color: #0092ff;
   margin: 0 10px;
   padding-top: 8px;
   display: inline-block;
@@ -959,7 +846,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
-  color: #434175;
+  color: #0092ff;
 }
 
 .team .member .member-info span {
@@ -1169,6 +1056,8 @@ section {
   background: #7272f5;
 }
 
+
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1200,7 +1089,7 @@ section {
 .breadcrumbs h2 {
   font-size: 28px;
   font-weight: 400;
-  color: #434175;
+  color: #0092ff;
 }
 
 .breadcrumbs ol {
@@ -1276,7 +1165,7 @@ section {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #434175;
+  color: #0092ff;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1382,7 +1271,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #deddec;
-  color: #434175;
+  color: #0092ff;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
